@@ -88,6 +88,5 @@
     $moon = date('F');
     ?>
     <h1>Hari ini : <?php echo getHari($date) . ', ' . date('d') . ' ' . getBulan($moon) . ' ' . date('Y'); ?></h1>
-    <h1><?php echo $this->session->userdata('unit') ?></h1>
   </section>
 </div>
